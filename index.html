@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Projeto X-Men</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo" > Selecione seu personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name = "Ciclope"
+                data-description="Como todos os mutantes, Scott Summers nasceu com o gene X ativado, o que resultou no despertar de alguns poderes durante sua puberdade, dentre eles, a capacidade de disparar rajadas ópticas, as quais ele não controla. Adotando o codinome Ciclope, ele se tornou um dos primeiros pupilos do Professor X, entrando para os X-Men. O herói é conhecido especialmente por seu papel de liderança na equipe.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" 
+                data-description="Jean Grey é a filha mais nova de Elaine Gray e do professor John Grey. Quando Jean tinha dez anos, ela estava brincando com sua melhor amiga, Annie Richardson, que foi acidentalmente atropelada por um carro e o estresse despertou os poderes telepáticos mutantes de Jean. Como membro dos X-Men, ela confrontou mutantes terroristas como Magneto e sua Irmandade de Mutantes. Enquanto em uma missão no espaço com o Quarteto Fantástico, Jean foi localizada pela Força Fênix, uma das mais antigas entidades cósmicas conhecidas, que viria a desempenhar um papel essencial em seu destino.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" 
+                data-description="Kitty Pride, a Lince Negra, nasceu em Deerfield, Illinois. Um dia, Kitty subiu para seu quarto, sentindo a pior dor de cabeça de sua vida. Deitada na cama, fechou os olhos, desejando que passasse. E passou. Para sua surpresa, quando abriu os olhos, encontrava-se na sala de estar. Sem saber, a jovem havia usado pela primeira vez seu poder de atravessar objetos sólidos. O Professor pediu para os pais de Kitty deixarem ela ir para o Instituto, mas ambos recusaram. Com a ajuda dos poderes de Jean, os pais de Kitty aceitaram a ida da mutante para a escola, fazendo dela a mais nova integrante dos X-Men.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" 
+                data-description="Ororo Monroe era filha de uma princesa queniana com um jornalista americano. Apesar de ter nascido nos EUA, ela voltou para a África com a família com apenas seis meses de idade. Dessa vez, no entanto, foi morar no Egito. Ainda criança, com apenas 5 anos, perdeu os pais em um acidente. Apesar de sobreviver, viveu por um tempo como mendiga nas ruas. Tempestade é capaz de controlar o clima, gerando tornados, trovões, tempestades, etc. Com o talento, então, acabou sendo convidada para os X-Men.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                data-description="Anna Marie era uma criança rebelde e seu relacionamento igualmente péssimo com seu pai a levou a fugir de casa quando era adolescente. Em algum momento, Vampira ficou próxima de um garoto chamado Cody Robbins. Durante o flerte deles, Vampira impulsivamente beijou Cody, momento no qual seu poder mutante latente de absorver a energia vital e a psique dos outros com contato pele-a-pele emergiu, deixando Cody em coma. A caridade do Professor Xavier para com todos os mutantes o levou a recebê-la em sua Escola para Jovens Superdotados, independentemente de sua equipe ter previamente lutando contra Vampira, e apesar das fortes desavenças dos X-Men.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="personagem Vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" 
+                data-description="James Howlett nasceu de uma família canadense, mas foi forçado a abandonar sua família após o trágico assassinato de seu pai, uma situação que fez com que suas habilidades bestiais mutantes do acelerado fator de cura, aguçadas pelos sentidos e garras ósseas em cada mão se manifestassem. Adotando o nome Logan, ele vagou pelo mundo, vivendo uma longa vida cheia de sangue, guerra e traição, tendo o vil Dentes-De-Sabre como seu arqui-inimigo e o guerreiro japonês Ogun como seu sensei. Logan foi um sujeito involuntário do Programa Arma X e teve seus ossos revestidos em indestrutível Adamantium, tornando-se um bem ainda mais letal. Ele foi resgatado e se tornou um operacional do governo canadense conhecido como Wolverine. Mais tarde, Logan foi convidado por Charles Xavier a juntar-se aos X-Men, uma equipe de heróis que lutam pela paz entre humanos e mutantes.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno"
+                data-description="Sob a forma de uma nobre alemã, a mutante Mística casou-se com um barão, enquanto mantinha um caso com o misterioso Azazel, de quem ficou grávida. O bebê nasceu visivelmente mutado com pelo azul por todo o corpo, orelhas pontudas, olhos iridescentes e uma cauda. A condição do bebê levou Mística e seu filho a serem perseguidos por uma multidão enfurecida empunhando tochas. Mística desmaiou e deixou o jovem Kurt Wagner flutuando em um rio durante a sua fuga. Kurt sobreviveu e foi criado em um circo, onde se tornou a estrela acrobata. Mais tarde, Kurt descobriu seus poderes de se teletranportar e foi recrutado pelo Professor Xavier para os X-Men.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="personagem Noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto"
+                data-description="O nome real de Magneto é Max Eisenhardt, sendo ele um sobrevivente do Holocausto que desenvolveu a habilidade mutante de controlar campos magnéticos.Magneto se tornou líder dos mutantes com uma visão mais radical de libertação para os mesmos, acreditando que a única maneira de os proteger seria por meio da dominação dos humanos. Ele já foi retratado como tanto um vilão quanto um anti-herói ao longo de sua história . Magneto é o principal antagonista dos X-Men e tem uma rivalidade de longa data com o professor Xavier, quem lidera a equipe.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="personagem Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Como todos os mutantes, Scott Summers nasceu com o gene X ativado, o que resultou no despertar de alguns 
+                    poderes durante sua puberdade, dentre eles, a capacidade de disparar rajadas ópticas, as quais ele não 
+                    controla. Adotando o codinome Ciclope, ele se tornou um dos primeiros pupilos do 
+                    Professor X, entrando para os X-Men. O herói é conhecido especialmente por seu 
+                    papel de liderança na equipe.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
